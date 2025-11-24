@@ -1,0 +1,61 @@
+# Prompt Templates Repository
+*Clay Context Engineering System for B2B Outbound*
+
+## 📁 Repository Structure
+```
+prompt-templates/
+├── _template_clay_context/     # Template for new clients (copy this)
+│   ├── 01_Research/           # Perplexity research prompts
+│   ├── 02_Artifacts/          # Clay-ready artifacts
+│   └── 03_Testing/            # Test results log
+│
+├── _universal_system/          # Universal components (never change)
+│   ├── agents/                # 4 universal agent prompts
+│   ├── clay_formulas/         # Reusable Clay formulas
+│   └── email_templates/       # 17 proven email templates
+│
+└── clients/                   # Client implementations
+    ├── harmoney_clay_context/
+    ├── vanroey_clay_context/
+    └── feneko_clay_context/
+```
+
+## 🚀 New Client Setup Process
+
+### Step 1: Research (Perplexity Pro)
+1. Copy `_template_clay_context/` folder
+2. Rename to `clientname_clay_context/`
+3. Run 3 research prompts in Perplexity
+4. Save outputs to `01_Research/`
+
+### Step 2: Artifact Creation (Claude Projects)
+1. Upload research files to Claude
+2. Transform into artifacts
+3. Save to `02_Artifacts/`
+4. Keep under word limits (1500-2000)
+
+### Step 3: Clay Implementation
+1. Upload artifacts to Clay Settings
+2. Configure 4 agents with universal prompts
+3. Test with 10 prospects
+4. Log results in `03_Testing/`
+
+## 📊 The 4-Agent System
+
+1. **Agent 1**: Company Qualifier (scores companies)
+2. **Agent 2**: Person Qualifier (scores contacts)  
+3. **Agent 3**: Persona Matcher (extracts intelligence)
+4. **Agent 4**: Message Writer (generates sequences)
+
+## 📈 Active Clients
+
+- **Harmoney**: Compliance automation for financial services
+- **VanRoey**: IT consultancy (Belgium)
+- **FenekO**: Manufacturing (insect screens, aluminum systems)
+
+## 🔧 Tools Required
+
+- Perplexity Pro (for research)
+- Claude Projects (for artifact creation)
+- Clay.com (for automation)
+- Git/GitHub (for version control)
